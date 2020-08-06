@@ -1,0 +1,27 @@
+{
+  "name": "stallion-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "3.2.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "libsvc": "file:local_modules/libsvc.tar.gz",
+    "multer": "^1.4.2",
+    "winston": "3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "7.5.0",
+    "nodemon": "2.0.4",
+    "prettier": "2.0.5"
+  }
+}

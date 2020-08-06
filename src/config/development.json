@@ -1,0 +1,14 @@
+{
+    "environment": "development",
+    "server": {
+        "http": {
+            "port": 80
+        }
+    },
+    "auth": {
+        "SystemAdmin": {
+            "expiresIn": "1d",
+            "secretKey": "ABC"
+        }
+    }
+}

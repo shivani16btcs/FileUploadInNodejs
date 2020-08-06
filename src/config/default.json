@@ -1,0 +1,14 @@
+{
+    "environment": "localhost",
+    "server": {
+        "http": {
+            "port": 8080
+        }
+    },
+    "auth": {
+        "SystemAdmin": {
+            "expiresIn": "1d",
+            "secretKey": "ABC"
+        }
+    }
+}

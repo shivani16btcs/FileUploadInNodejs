@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "libsvc",
+  "version": "1.0.0",
+  "description": "Rapid Web Service Development Toolkit",
+  "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/daffodilsoftware/node-libsvc"
+  },
+  "keywords": [
+    "toolkit",
+    "webservice"
+  ],
+  "author": "daffodilsw",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "cron": "^1.1.0",
+    "error-stack-parser": "^1.3.6",
+    "lodash": "^4.13.1",
+    "tv4": "^1.2.7",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^2.2.0",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.4"
+  }
+}
